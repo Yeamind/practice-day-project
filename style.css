@@ -1,0 +1,120 @@
+.big-img img {
+  width: 550px;
+  height: auto;
+}
+
+.head-section {
+  display: flex;
+
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+
+}
+
+h1 {
+  font-size: 65px;
+}
+
+.orange-color {
+  color: orange;
+  font-weight: bold;
+  font-size: 65px;
+}
+
+.half-width p {
+  font-size: 24px;
+}
+
+.anchor-button {
+  /* background-color: orange; */
+  background-image: linear-gradient(rgb(245, 193, 98), orange);
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  color: red;
+}
+
+.about-me-sec {
+  display: flex;
+  background-image: url(images/7.png);
+}
+
+.second-half {
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 35px; */
+  padding-top: 50px;
+
+}
+
+.decrease-font-size {
+  font-size: 40px;
+
+}
+
+.second-half p {
+  line-height: 1.75em;
+  text-align: justify;
+  width: 60%;
+  padding-bottom: 40px;
+}
+
+.bio-section {
+  text-align: center;
+  padding-top: 1.20em;
+}
+
+.bio-section h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.blog-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recp-blog {
+  width: 40%;
+  box-shadow: 10px 10px 40px gray;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.recp-blog img {
+  width: 450px;
+  height: 0 auto;
+}
+
+.subscriber-section{
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+  width: 70%;
+  padding: 0 150px;
+  box-shadow: 10px 10px 40px gray;
+  text-align: center;
+  border-radius: 20px;
+}
+
+footer{
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.last-orange-color {
+  color: orange;
+  font-weight: bold;
+  font-size: 24px;
+}
