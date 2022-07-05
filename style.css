@@ -81,9 +81,12 @@ h1 {
 
 .recp-blog {
   width: 40%;
-  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  box-shadow: 10px 10px 40px rgb(158, 245, 58);
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   border-radius: 15px;
 }
 
@@ -93,15 +96,21 @@ h1 {
 }
 
 .subscriber-section{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
-  
   justify-content: space-between;
-  width: 70%;
-  padding: 0 150px;
-  box-shadow: 10px 10px 40px gray;
+  box-shadow: 10px 10px 40px rgb(37, 130, 252);
   text-align: center;
   border-radius: 20px;
+  padding-left: 25px;
+  
+}
+.need-padding{
+  padding-right: 25px;
 }
 
 footer{
@@ -116,5 +125,15 @@ footer{
 .last-orange-color {
   color: orange;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 40px;
+}
+.audience{
+  font-size:35px;
+  font-weight: bold;
+}
+footer h3{
+  font-size: 40px;
+}
+footer p{
+  font-size: 25px;
 }
